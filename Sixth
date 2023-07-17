@@ -1,0 +1,42 @@
+Q6.What is the lambda expression of Java 8?
+Ans:
+
+A lambda expression in Java is a short block of code that can be used to represent an anonymous 
+function. Lambda expressions were introduced in Java 8, and they provide a way to write concise 
+and expressive code.
+
+Example of a lambda expression:
+
+(s) -> s.length()
+
+This lambda expression takes a string as input and returns its length. The lambda expression is
+enclosed in parentheses, and the body of the lambda expression is a single expression. 
+The arrow (->) separates the parameter list from the body of the lambda expression.
+
+Example of a lambda expression:
+
+(s, t) -> s.length() > t.length()
+
+This lambda expression takes two strings as input and returns a boolean value indicating whether 
+the first string is longer than the second string. The lambda expression has two parameters, which 
+are enclosed in parentheses. The body of the lambda expression is a boolean expression.
+
+Lambda expressions can be used in a variety of places in Java, including:
+
+Stream operations: Lambda expressions can be used to define the operations that are performed on streams.
+Event handlers: Lambda expressions can be used to define the event handlers for GUI components.
+Functional interfaces: Lambda expressions can be used to implement functional interfaces.
+Lambda expressions are a powerful tool that can be used to simplify and improve the readability of Java code.
+
+Benefits of using lambda expressions in Java:
+
+Conciseness: Lambda expressions can be used to write concise and expressive code.
+Readability: Lambda expressions can make code more readable by making it easier to understand the intent of the code.
+Functional programming: Lambda expressions can be used to write functional code, which can make code more reusable and easier to test.
+
+Syntax rules for lambda expressions in Java:
+
+The parameter list of a lambda expression is enclosed in parentheses.
+The body of a lambda expression can be a single expression or a block of statements.
+The arrow (->) separates the parameter list from the body of the lambda expression.
+The body of a lambda expression can be implicitly typed if the compiler can infer the type of the expression or block of statements.

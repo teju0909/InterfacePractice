@@ -1,0 +1,28 @@
+Q10.Is it mandatory for a lambda expression to have parameters?
+Ans:
+No, it is not mandatory for a lambda expression to have parameters. A lambda expression can have 
+zero, one, or multiple parameters.
+
+If a lambda expression has no parameters, the parameter list is empty. For example, the following 
+lambda expression has no parameters:
+
+
+() -> System.out.println("Hello, world!");
+
+If a lambda expression has one parameter, the parameter list is enclosed in parentheses. For example, 
+the following lambda expression has one parameter:
+
+
+(s) -> System.out.println(s);
+
+If a lambda expression has multiple parameters, the parameter list is enclosed in parentheses, and 
+the parameters are separated by commas. For example, the following lambda expression has two 
+parameters:
+
+Java
+(s, t) -> System.out.println(s + t);
+
+The decision of whether or not to include parameters in a lambda expression depends on the specific 
+use case. In some cases, it may be helpful to include parameters in a lambda expression to make the 
+code more readable and concise. In other cases, it may be more efficient to omit parameters from a 
+lambda expression.

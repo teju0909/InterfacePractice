@@ -1,0 +1,29 @@
+Q8.What is the functional interface in Java 8?
+Ans:
+
+A functional interface in Java 8 is an interface that has only one abstract method. 
+Functional interfaces are often used with lambda expressions, which are short blocks of code that 
+can be used to represent anonymous functions.
+
+Benefits of using functional interfaces in Java:
+
+Conciseness: Functional interfaces can be used to write concise and expressive code.
+Readability: Functional interfaces can make code more readable by making it easier to understand 
+			 the intent of the code.
+Functional programming: Functional interfaces can be used to write functional code, which can make 
+						code more reusable and easier to test.
+
+Examples of functional interfaces in Java:
+
+Runnable - Represents the behavior of a thread.
+Comparator - Represents a comparison function.
+Predicate - Represents a predicate (boolean-valued function) of one argument.
+Function - Represents a function that takes one argument and returns a result.
+Consumer - Represents an operation that consumes a value without returning any result.
+
+
+Syntax rules for functional interfaces in Java:
+
+A functional interface must have exactly one abstract method.
+A functional interface can have any number of default methods.
+A functional interface can have any number of static methods.

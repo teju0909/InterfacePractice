@@ -1,0 +1,36 @@
+Q4.What is an interface in Java?
+Ans:An interface in Java is a reference type that is used to declare a behavior that classes must 
+    implement. They are similar to protocols. Interfaces are declared using the interface keyword,
+    and may only contain method signature and constant declarations.
+
+Features of interfaces in Java:
+
+=> Interfaces are abstract by default. This means that they cannot be instantiated.
+=> Interfaces can contain method signatures, but not method bodies. The method bodies are provided by 
+   the classes that implement the interface.
+=> Interfaces can contain constant declarations.
+=> Interfaces can be used to achieve multiple inheritance in Java.
+=> Interfaces can be used to define the behavior of a class without specifying the implementation 
+   details.
+
+Example of an interface in Java:
+
+
+interface Shape {
+  void draw();
+}
+
+This interface declares a single method called draw(). Any class that implements the Shape interface 
+must provide an implementation for the draw() method.
+
+Example of a class that implements the Shape interface:
+
+
+class Rectangle implements Shape {
+  public void draw() {
+    System.out.println("Drawing a rectangle");
+  }
+}
+
+This class implements the Shape interface by providing an implementation for the draw() method.
+

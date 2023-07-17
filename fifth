@@ -1,0 +1,27 @@
+Q5.What is the use of interface in Java?
+Ans:
+Interfaces are used in Java to achieve abstraction, multiple inheritance, and to define a contract 
+between different classes.
+
+Benefits of using interfaces in Java:
+
+=> Abstraction: Interfaces allow you to define the behavior of a class without specifying the 
+                implementation details. This makes your code more modular and easier to understand.
+
+=> Multiple inheritance: Interfaces allow you to achieve multiple inheritance in Java. This means 
+						 that a class can inherit from multiple interfaces, which can be useful for
+						 defining complex objects.
+
+=> Contract: Interfaces can be used to define a contract between different classes. This means that
+			 the classes that implement the interface agree to provide certain functionality. This can be useful for ensuring that different parts of your code work together correctly.
+
+Examples of how interfaces are used in Java:
+
+1.The Runnable interface is used to define the behavior of a thread. Any class that implements the
+  Runnable interface can be used to create a thread.
+  
+2.The Comparable interface is used to define the natural ordering of objects. Any class that 
+  implements the Comparable interface can be compared to other objects of the same type.
+
+3.The Observer interface is used to define the behavior of an object that observes other objects. 
+  Any class that implements the Observer interface can be notified when other objects change.

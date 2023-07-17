@@ -1,0 +1,28 @@
+Q7.Can you pass lambda expressions to a method? When?
+Ans:
+Yes, you can pass lambda expressions to a method. This is known as passing a lambda expression 
+as an argument. You can do this if the method's parameter is a functional interface. A functional 
+interface is an interface that has only one abstract method.
+
+Example of how to pass a lambda expression as an argument:
+
+public class Main {
+
+  public static void main(String[] args) {
+    String[] strings = {"Hello", "World", "Java"};
+    // The `sort()` method takes a `Comparator` as an argument.
+    // The `Comparator` is a functional interface that has one abstract method, `compare()`.
+    // The lambda expression `(s1, s2) -> s1.length() - s2.length()` implements the `compare()` method.
+    Arrays.sort(strings, (s1, s2) -> s1.length() - s2.length());
+
+    for (String string : strings) {
+      System.out.println(string);
+    }
+  }
+}
+
+In this example, the sort() method takes a Comparator as an argument. The Comparator is a functional interface that 
+has one abstract method, compare(). The lambda expression (s1, s2) -> s1.length() - s2.length() implements the compare() method.
+
+When the sort() method is called, the lambda expression is passed as an argument. The lambda 
+expression is then used to sort the strings in the strings array.

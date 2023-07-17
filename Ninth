@@ -1,0 +1,22 @@
+Q9.What is the benefit of lambda expressions in Java 8?
+Ans:
+Lambda expressions are used to simplify and improve the readability of Java code. 
+
+Benefits of using lambda expressions in Java:
+
+Conciseness: Lambda expressions can be used to write concise and expressive code.
+Readability: Lambda expressions can make code more readable by making it easier to understand 
+			 the intent of the code.
+Functional programming: Lambda expressions can be used to write functional code, which can make 
+						code more reusable and easier to test.
+Parallelism: Lambda expressions can be used to write parallel code, which can improve the performance 
+			 of your application.
+
+Examples of how lambda expressions can be used to improve the readability of Java code:
+
+Stream operations: Lambda expressions can be used to define the operations that are performed on streams. 
+				   This makes the code more concise and easier to understand.
+Event handlers: Lambda expressions can be used to define the event handlers for GUI components. This 
+				makes the code more concise and easier to understand.
+Functional interfaces: Lambda expressions can be used to implement functional interfaces. This makes 
+					   the code more concise and easier to understand.
